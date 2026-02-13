@@ -1,12 +1,12 @@
+install.packages("Rmisc")
+library(Rmisc)
+library(ggplot2)
 ---
-title: 'Rogers'' paradox: An agent-based model in R'
+title: 'Rogers' paradox: An agent-based model in R'
 author: "Alex Mesoudi"
 output: 
-  pdf_document:
-    fig_caption: yes
-    fig_height: 5
-    fig_width: 8
-date: '`r format(Sys.time(), "%d %B, %Y")`'
+  html_document
+date: '13 February, 2026'
 
 ---
 
